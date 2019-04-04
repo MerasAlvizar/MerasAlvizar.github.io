@@ -4,9 +4,11 @@
 	<meta charset="utf-8">
 	<title>Microsoft: pagina Principal</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script src="js/jquery.js"></script>
 	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 	<link rel="shortcut icon" type="image/png" href="image/logo.png"/>
 </head>
+<script src="js/jquery.js"></script>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
   
@@ -14,23 +16,23 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor03">
+  <div class="collapse navbar-collapse" id="navbarColor03" >
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <img src="image/MICRO.png" height="25"  >
+      <li class="nav-item active" style="column-width: 130px">
+        <img src="image/MICRO.png" height="22.5"  >
         
       </li>
-      <li class="nav-item">
+      <li class="nav-item active" >
         <a class="nav-link" href="#">Office</a>
 
       </li>
-      <li class="nav-item">
+      <li class="nav-item active ">
         <a class="nav-link" href="#">Windows</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="#">Xbox Live</a>
       </li>
-      <li class="nav-item " >
+      <li class="nav-item active " >
         <a class="nav-link"  href="#">Soporte</a>
       </li>
     </ul>
@@ -44,12 +46,48 @@
       <li class="nav-item" style="list-style:none" >&emsp;
         <img src="image/usu.png" width="35" > 
       </li>
-      
-      
-    
- 
-  </div>
+
+     </div>
 </nav>
+<div class="container" style="width: 100%; margin: 0px !important">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+   
+
+    <div class="item">
+      <img src="image/image1.png" alt="">
+    </div>
+
+    <div class="item">
+      <img src="image/image2.png" alt="">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </a>
+</div>
+      </div>
+    </div> 
+  </div>
+  <script src="js/bootstrap.js"></script> 
+
 
 </body>
 </html>
